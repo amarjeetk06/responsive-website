@@ -1,0 +1,105 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Task</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">apna bharat</h1>
+
+            <ul class="nav-links">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about</a> </li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="gallery.html">service</a></li>
+            </ul>
+            <img src="/images/menuicon.png" alt="" class="menu-btn">
+
+
+        </nav>
+        <main>
+            <div class="middle">
+                <h3>Welcome To India</h3>
+                <h1>Do come and visit<span class="change_content"></span></h1>
+                <h2>"We believe in PEACE and PEACEFUL development<br> not only for ourselves but for people all over the
+                    world."</h2>
+                <a href="#" class="btnone">learn more</a>
+                <a href="#" class="btntwo">signup</a>
+            </div>
+
+        </main>
+    </header>
+
+    <section class="about-page">
+        <div class="title">
+            <h1>About Us</h1>
+            <div class="line"></div>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="/images/night.jpg" alt="">
+                <h4>Night place</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href="#" class="ctn">Join us</a>    
+            </div>
+            <div class="col">
+                <img src="/images/mountain.jpg" alt="">
+                <h4>Mountain view</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    
+                </p>
+                <a href="#" class="ctn">Join us</a>    
+            </div>
+        </div>
+
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>TOUR PLACES</h1>
+
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href="#" class="ctn">Join Us</a>
+            </div>
+            <div class="col image-col"> 
+                <div class="gallery-image">
+                    <img src="/images/river.jpg" alt="">
+                    <img src="/images/house.jpg" alt="">
+                    <img src="/images/mountain.jpg" alt="">
+                    <img src="/images/night.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+       
+    </section>
+
+    <section class="footer">
+        <p>Copyright @2022</p>
+    </section>
+   
+
+
+
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+        </script>
+</body >
+
+</html >
